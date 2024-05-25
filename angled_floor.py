@@ -9,6 +9,7 @@ CHAR_VEL = 5
 STAR_VEL = 3
 STAR_WIDTH, STAR_HEIGHT = 10, 20
 
+
 WIN = pygame.display.set_mode((WIDTH, HEIGHT))
 pygame.display.set_caption('Fun Little Game')
 BG = pygame.transform.scale(pygame.image.load("assets/img/space_bg.jpg"), (WIDTH, HEIGHT))
